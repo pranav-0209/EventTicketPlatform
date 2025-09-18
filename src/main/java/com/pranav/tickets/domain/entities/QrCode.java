@@ -1,4 +1,4 @@
-package com.pranav.tickets.domain;
+package com.pranav.tickets.domain.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

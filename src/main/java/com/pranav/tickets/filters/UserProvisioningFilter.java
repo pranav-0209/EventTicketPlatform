@@ -1,6 +1,6 @@
 package com.pranav.tickets.filters;
 
-import com.pranav.tickets.domain.User;
+import com.pranav.tickets.domain.entities.User;
 import com.pranav.tickets.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
