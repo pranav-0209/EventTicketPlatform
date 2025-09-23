@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
+import static com.pranav.tickets.util.JwtUtil.parseUserId;
+
 @RestController
 @RequestMapping("/api/v1/events")
 public class EventController {
@@ -85,7 +87,4 @@ public class EventController {
     }
 
 
-    private UUID parseUserId(Jwt jwt) {
-        return UUID.fromString(jwt.getSubject());
-    }
 }
